@@ -1,8 +1,12 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
   "description": "![Actions Status](/workflows/hexlet-check/badge.svg)",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/gruzzilkin/frontend-project-lvl1.git"
   },
-  "author": "",
+  "author": "Nick Sadovnikov",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/gruzzilkin/frontend-project-lvl1/issues"
