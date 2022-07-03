@@ -1,2 +1,2 @@
 ### Hexlet tests and linter status:
-![Actions Status](/workflows/hexlet-check/badge.svg)
+[![Maintainability](https://api.codeclimate.com/v1/badges/710430310de835e88753/maintainability)](https://codeclimate.com/github/gruzzilkin/frontend-project-lvl1/maintainability)
