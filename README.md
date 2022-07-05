@@ -1,4 +1,8 @@
 ### Hexlet tests and linter status:
 [![Maintainability](https://api.codeclimate.com/v1/badges/710430310de835e88753/maintainability)](https://codeclimate.com/github/gruzzilkin/frontend-project-lvl1/maintainability)
 
-[![asciicast](https://asciinema.org/a/xz6z4ICGqB3iOrsyhhqmbSpXl.svg)](https://asciinema.org/a/xz6z4ICGqB3iOrsyhhqmbSpXl)
+### Brain Even Game
+[![Brain Even asciinema](https://asciinema.org/a/xz6z4ICGqB3iOrsyhhqmbSpXl.svg)](https://asciinema.org/a/xz6z4ICGqB3iOrsyhhqmbSpXl)
+
+### Brain Calc Game
+[![asciicast](https://asciinema.org/a/DWSzurlx21iDHBSerrsmEsj2a.svg)](https://asciinema.org/a/DWSzurlx21iDHBSerrsmEsj2a)
