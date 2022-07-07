@@ -12,7 +12,7 @@ import {
   getRandomNumber,
 } from '../src/index.js';
 
-const isEven = (num) => (!Number.isNaN(+num) ? +num % 2 === 0 : false);
+const getGcd = ([num1, num2]) => (num2 === 0 ? num1 : getGcd([num2, num1 % num2]));
 
 export default () => {
   showWelcomeText();
@@ -24,12 +24,12 @@ export default () => {
   let counter = 0;
 
   while (counter < QUESTIONS_NUMBER) {
-    const randomNumber = getRandomNumber();
-    const correctAnswer = isEven(randomNumber) ? 'yes' : 'no';
+    const randomNumbers = [getRandomNumber(), getRandomNumber()];
+    const correctAnswer = getGcd(randomNumbers);
 
-    showQuestionText(randomNumber);
+    showQuestionText(randomNumbers.join(' '));
 
-    const answer = getAnswer();
+    const answer = +getAnswer();
 
     counter += 1;
 

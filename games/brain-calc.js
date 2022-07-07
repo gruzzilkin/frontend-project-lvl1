@@ -7,7 +7,9 @@ import {
   showQuestionText,
   getAnswer,
   showWrongAnswerText,
-  showRightAnswerText, showCongratsText,
+  showRightAnswerText,
+  showCongratsText,
+  getRandomNumber,
 } from '../src/index.js';
 
 const OPERATION = {
@@ -16,7 +18,6 @@ const OPERATION = {
   MULTIPLICATION: '*',
 };
 
-const getRandomNumber = (min = 1, max = 25) => Math.round(Math.random() * (max - min)) + min;
 const getRandomOperation = () => Object.values(OPERATION)[getRandomNumber(0, 2)];
 
 const calc = (num1, num2, operation) => {

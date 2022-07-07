@@ -24,3 +24,5 @@ export const showWrongAnswerText = (name, answer, correctAnswer) => console.log(
 export const showRightAnswerText = (text = 'Correct!') => console.log(text);
 
 export const showCongratsText = (name, text = `Congratulations, ${name}!`) => console.log(text);
+
+export const getRandomNumber = (min = 1, max = 100) => Math.round(Math.random() * (max - min)) + min;
